@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cars_pure</folder>
+	<filename>ZTLNZFMUW5JL3BYYG7GAO7RHDI.jpg</filename>
+	<path>C:\Users\shrikrishna.rai\Desktop\cars_pure\ZTLNZFMUW5JL3BYYG7GAO7RHDI.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3500</width>
+		<height>2333</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bmw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1083</xmin>
+			<ymin>612</ymin>
+			<xmax>2547</xmax>
+			<ymax>1405</ymax>
+		</bndbox>
+	</object>
+</annotation>

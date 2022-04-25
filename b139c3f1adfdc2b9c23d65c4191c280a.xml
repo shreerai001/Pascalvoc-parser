@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cars_pure</folder>
+	<filename>b139c3f1adfdc2b9c23d65c4191c280a.jpg</filename>
+	<path>C:\Users\shrikrishna.rai\Desktop\cars_pure\b139c3f1adfdc2b9c23d65c4191c280a.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ford</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>165</ymin>
+			<xmax>119</xmax>
+			<ymax>178</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cars_pure</folder>
+	<filename>akrales_20210526_4595_0029.0.jpg</filename>
+	<path>C:\Users\shrikrishna.rai\Desktop\cars_pure\akrales_20210526_4595_0029.0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ford</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>538</xmin>
+			<ymin>336</ymin>
+			<xmax>677</xmax>
+			<ymax>382</ymax>
+		</bndbox>
+	</object>
+</annotation>

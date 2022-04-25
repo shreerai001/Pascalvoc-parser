@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cars_pure</folder>
+	<filename>Ford-F-150-Lightning-Platinum.webp</filename>
+	<path>C:\Users\shrikrishna.rai\Desktop\cars_pure\Ford-F-150-Lightning-Platinum.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ford</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>244</xmin>
+			<ymin>343</ymin>
+			<xmax>333</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+</annotation>
