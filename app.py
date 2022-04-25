@@ -4,7 +4,7 @@ import glob
 
 final_data = pd.DataFrame()
 
-for file in glob.glob('*.xml'):
+for file in glob.glob('resources/*.xml'):
     dom = ElementTree.parse(file)
 
     path = dom.find('filename').text
