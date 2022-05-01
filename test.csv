@@ -1,0 +1,1029 @@
+,label,list
+0,__header__,"b'MATLAB 5.0 MAT-file, Platform: GLNXA64, Created on: Fri Jan 17 17:47:08 2014'"
+1,__version__,1.0
+2,__globals__,[]
+3,train_indices,"[[119]
+ [127]
+ [109]
+ [121]
+ [122]
+ [ 93]
+ [ 90]
+ [103]
+ [ 98]
+ [117]
+ [132]
+ [138]
+ [120]
+ [ 94]
+ [125]
+ [129]
+ [115]
+ [104]
+ [128]
+ [134]
+ [101]
+ [133]
+ [ 95]
+ [ 92]
+ [135]
+ [140]
+ [116]
+ [200]
+ [193]
+ [192]
+ [156]
+ [197]
+ [169]
+ [170]
+ [202]
+ [155]
+ [206]
+ [178]
+ [161]
+ [175]
+ [179]
+ [173]
+ [163]
+ [171]
+ [187]
+ [204]
+ [201]
+ [159]
+ [177]
+ [182]
+ [190]
+ [199]
+ [181]
+ [157]
+ [224]
+ [253]
+ [247]
+ [220]
+ [213]
+ [228]
+ [222]
+ [249]
+ [237]
+ [241]
+ [236]
+ [216]
+ [234]
+ [250]
+ [214]
+ [248]
+ [251]
+ [230]
+ [208]
+ [235]
+ [244]
+ [229]
+ [246]
+ [252]
+ [232]
+ [275]
+ [276]
+ [271]
+ [291]
+ [266]
+ [261]
+ [267]
+ [277]
+ [287]
+ [285]
+ [272]
+ [264]
+ [283]
+ [297]
+ [258]
+ [306]
+ [273]
+ [288]
+ [260]
+ [303]
+ [263]
+ [265]
+ [295]
+ [296]
+ [281]
+ [345]
+ [342]
+ [329]
+ [337]
+ [319]
+ [325]
+ [317]
+ [312]
+ [336]
+ [318]
+ [320]
+ [315]
+ [355]
+ [350]
+ [330]
+ [333]
+ [343]
+ [338]
+ [313]
+ [322]
+ [339]
+ [359]
+ [331]
+ [340]
+ [324]
+ [321]
+ [395]
+ [382]
+ [362]
+ [404]
+ [402]
+ [405]
+ [407]
+ [366]
+ [372]
+ [370]
+ [397]
+ [392]
+ [381]
+ [393]
+ [367]
+ [379]
+ [368]
+ [360]
+ [401]
+ [385]
+ [396]
+ [374]
+ [384]
+ [400]
+ [406]
+ [434]
+ [444]
+ [426]
+ [420]
+ [437]
+ [459]
+ [421]
+ [411]
+ [436]
+ [422]
+ [458]
+ [439]
+ [446]
+ [432]
+ [452]
+ [441]
+ [438]
+ [423]
+ [427]
+ [429]
+ [450]
+ [447]
+ [433]
+ [418]
+ [417]
+ [440]
+ [497]
+ [462]
+ [509]
+ [510]
+ [503]
+ [491]
+ [477]
+ [470]
+ [500]
+ [461]
+ [501]
+ [466]
+ [474]
+ [479]
+ [482]
+ [495]
+ [485]
+ [483]
+ [499]
+ [511]
+ [489]
+ [467]
+ [473]
+ [480]
+ [502]
+ [498]
+ [ 41]
+ [ 37]
+ [ 49]
+ [ 29]
+ [ 12]
+ [  8]
+ [ 14]
+ [ 50]
+ [ 31]
+ [ 24]
+ [ 30]
+ [ 13]
+ [ 15]
+ [ 26]
+ [ 46]
+ [  7]
+ [ 34]
+ [ 39]
+ [  2]
+ [ 11]
+ [ 43]
+ [ 16]
+ [ 18]
+ [ 44]
+ [ 42]
+ [ 64]
+ [148]
+ [ 77]
+ [ 53]
+ [ 62]
+ [ 56]
+ [ 74]
+ [ 76]
+ [ 58]
+ [141]
+ [146]
+ [ 60]
+ [ 63]
+ [147]
+ [ 54]
+ [ 83]
+ [ 85]
+ [ 68]
+ [ 79]
+ [ 80]
+ [ 52]
+ [151]
+ [144]
+ [153]
+ [ 67]
+ [ 65]]"
+4,test_indices,"[[108]
+ [112]
+ [139]
+ [124]
+ [118]
+ [136]
+ [114]
+ [137]
+ [113]
+ [130]
+ [106]
+ [131]
+ [102]
+ [ 88]
+ [123]
+ [110]
+ [ 89]
+ [ 91]
+ [105]
+ [111]
+ [126]
+ [100]
+ [ 96]
+ [107]
+ [ 97]
+ [ 99]
+ [164]
+ [205]
+ [194]
+ [168]
+ [185]
+ [191]
+ [198]
+ [184]
+ [160]
+ [207]
+ [180]
+ [165]
+ [162]
+ [189]
+ [188]
+ [195]
+ [203]
+ [174]
+ [183]
+ [172]
+ [166]
+ [186]
+ [176]
+ [196]
+ [167]
+ [158]
+ [221]
+ [212]
+ [257]
+ [256]
+ [245]
+ [218]
+ [240]
+ [239]
+ [243]
+ [209]
+ [210]
+ [211]
+ [225]
+ [231]
+ [226]
+ [217]
+ [242]
+ [227]
+ [238]
+ [254]
+ [233]
+ [215]
+ [255]
+ [223]
+ [219]
+ [294]
+ [298]
+ [299]
+ [305]
+ [282]
+ [270]
+ [289]
+ [302]
+ [280]
+ [278]
+ [286]
+ [279]
+ [284]
+ [293]
+ [290]
+ [262]
+ [301]
+ [304]
+ [300]
+ [274]
+ [259]
+ [292]
+ [307]
+ [268]
+ [269]
+ [328]
+ [351]
+ [314]
+ [348]
+ [356]
+ [341]
+ [354]
+ [353]
+ [309]
+ [349]
+ [311]
+ [332]
+ [334]
+ [310]
+ [357]
+ [358]
+ [335]
+ [347]
+ [344]
+ [316]
+ [308]
+ [326]
+ [323]
+ [346]
+ [352]
+ [327]
+ [391]
+ [387]
+ [388]
+ [373]
+ [369]
+ [403]
+ [380]
+ [399]
+ [376]
+ [371]
+ [383]
+ [375]
+ [365]
+ [390]
+ [409]
+ [408]
+ [389]
+ [363]
+ [394]
+ [378]
+ [377]
+ [386]
+ [364]
+ [398]
+ [361]
+ [413]
+ [428]
+ [455]
+ [448]
+ [431]
+ [415]
+ [430]
+ [412]
+ [454]
+ [457]
+ [456]
+ [453]
+ [410]
+ [445]
+ [416]
+ [425]
+ [419]
+ [424]
+ [443]
+ [449]
+ [442]
+ [414]
+ [451]
+ [435]
+ [460]
+ [475]
+ [468]
+ [505]
+ [476]
+ [512]
+ [463]
+ [481]
+ [490]
+ [478]
+ [496]
+ [504]
+ [484]
+ [508]
+ [472]
+ [465]
+ [506]
+ [507]
+ [488]
+ [494]
+ [486]
+ [471]
+ [493]
+ [464]
+ [492]
+ [469]
+ [487]
+ [ 48]
+ [ 20]
+ [ 17]
+ [  6]
+ [ 38]
+ [  9]
+ [ 22]
+ [  1]
+ [ 32]
+ [ 27]
+ [ 36]
+ [ 25]
+ [ 28]
+ [  4]
+ [ 45]
+ [ 10]
+ [ 35]
+ [ 47]
+ [  3]
+ [ 33]
+ [ 19]
+ [ 40]
+ [ 21]
+ [ 23]
+ [  5]
+ [143]
+ [ 78]
+ [ 55]
+ [142]
+ [ 72]
+ [152]
+ [ 69]
+ [150]
+ [154]
+ [ 70]
+ [ 81]
+ [ 84]
+ [ 71]
+ [ 66]
+ [ 75]
+ [ 51]
+ [ 57]
+ [ 61]
+ [ 82]
+ [ 87]
+ [ 86]
+ [145]
+ [ 59]
+ [149]
+ [ 73]]"
+5,annos,"[[(array(['10/150302307.thumb.jpg'], dtype='<U22'), array([[9]], dtype=uint8), array([[42]]), array([[217]]), array([[32]]), array([[163]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['10/150302397.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[299]]), array([[639]]), array([[213]]), array([[371]]), array([[426]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['10/150302515.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[32]]), array([[445]]), array([[41]]), array([[295]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['10/150302647.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[22]]), array([[613]]), array([[101]]), array([[447]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['10/150302686.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[97]]), array([[780]]), array([[116]]), array([[493]]), array([[558]], dtype=uint16), array([[850]], dtype=uint16))
+  (array(['10/150302710.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[59]]), array([[451]]), array([[54]]), array([[264]]), array([[320]], dtype=uint16), array([[495]], dtype=uint16))
+  (array(['10/150302723.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[44]]), array([[578]]), array([[119]]), array([[329]]), array([[382]], dtype=uint16), array([[626]], dtype=uint16))
+  (array(['10/150302770.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[24]]), array([[590]]), array([[81]]), array([[367]]), array([[408]], dtype=uint16), array([[612]], dtype=uint16))
+  (array(['10/150302772.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[178]]), array([[666]]), array([[159]]), array([[475]]), array([[533]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['10/150302795.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[43]]), array([[359]]), array([[25]]), array([[259]]), array([[303]], dtype=uint16), array([[405]], dtype=uint16))
+  (array(['10/150302873.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[86]]), array([[548]]), array([[97]]), array([[329]]), array([[387]], dtype=uint16), array([[580]], dtype=uint16))
+  (array(['10/150302884.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[46]]), array([[569]]), array([[118]]), array([[375]]), array([[403]], dtype=uint16), array([[608]], dtype=uint16))
+  (array(['10/150303002.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[65]]), array([[633]]), array([[71]]), array([[467]]), array([[527]], dtype=uint16), array([[792]], dtype=uint16))
+  (array(['10/150303008.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[270]]), array([[1384]]), array([[182]]), array([[845]]), array([[1064]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['10/150303015.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[25]]), array([[514]]), array([[5]]), array([[315]]), array([[321]], dtype=uint16), array([[549]], dtype=uint16))
+  (array(['10/150303122.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[153]]), array([[1089]]), array([[444]]), array([[799]]), array([[943]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['10/150303259.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[18]]), array([[285]]), array([[37]]), array([[174]]), array([[213]], dtype=uint8), array([[320]], dtype=uint16))
+  (array(['10/150303291.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[14]]), array([[437]]), array([[96]]), array([[310]]), array([[338]], dtype=uint16), array([[450]], dtype=uint16))
+  (array(['10/150303318.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[133]]), array([[577]]), array([[191]]), array([[385]]), array([[418]], dtype=uint16), array([[630]], dtype=uint16))
+  (array(['10/150303349.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[27]]), array([[451]]), array([[41]]), array([[224]]), array([[265]], dtype=uint16), array([[470]], dtype=uint16))
+  (array(['10/150303361.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[177]]), array([[1099]]), array([[161]]), array([[862]]), array([[1014]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['10/150303513.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[27]]), array([[578]]), array([[48]]), array([[402]]), array([[427]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['10/150303539.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[81]]), array([[701]]), array([[66]]), array([[429]]), array([[533]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['10/150303565.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[65]]), array([[546]]), array([[18]]), array([[359]]), array([[387]], dtype=uint16), array([[580]], dtype=uint16))
+  (array(['10/150303689.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[38]]), array([[579]]), array([[39]]), array([[326]]), array([[345]], dtype=uint16), array([[613]], dtype=uint16))
+  (array(['10/150303760.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[14]]), array([[611]]), array([[92]]), array([[334]]), array([[346]], dtype=uint16), array([[620]], dtype=uint16))
+  (array(['10/150303767.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[59]]), array([[262]]), array([[74]]), array([[151]]), array([[200]], dtype=uint8), array([[290]], dtype=uint16))
+  (array(['10/150303829.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[59]]), array([[572]]), array([[84]]), array([[350]]), array([[389]], dtype=uint16), array([[623]], dtype=uint16))
+  (array(['10/150303902.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[516]]), array([[1104]]), array([[454]]), array([[906]]), array([[1200]], dtype=uint16), array([[1598]], dtype=uint16))
+  (array(['10/150303922.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[250]]), array([[1782]]), array([[509]]), array([[1069]]), array([[1080]], dtype=uint16), array([[1920]], dtype=uint16))
+  (array(['10/150304122.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[29]]), array([[548]]), array([[79]]), array([[358]]), array([[387]], dtype=uint16), array([[580]], dtype=uint16))
+  (array(['10/150304126.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[87]]), array([[939]]), array([[148]]), array([[466]]), array([[603]], dtype=uint16), array([[986]], dtype=uint16))
+  (array(['10/150304132.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[29]]), array([[616]]), array([[23]]), array([[436]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['10/150304216.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[163]]), array([[429]]), array([[81]]), array([[250]]), array([[320]], dtype=uint16), array([[495]], dtype=uint16))
+  (array(['10/150304261.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[42]]), array([[927]]), array([[31]]), array([[562]]), array([[603]], dtype=uint16), array([[986]], dtype=uint16))
+  (array(['10/150304294.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[156]]), array([[506]]), array([[254]]), array([[395]]), array([[419]], dtype=uint16), array([[588]], dtype=uint16))
+  (array(['10/150304381.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[136]]), array([[964]]), array([[87]]), array([[633]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['10/150304396.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[36]]), array([[605]]), array([[105]]), array([[333]]), array([[400]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['10/150304410.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[3]]), array([[319]]), array([[38]]), array([[209]]), array([[240]], dtype=uint8), array([[320]], dtype=uint16))
+  (array(['10/150304421.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[121]]), array([[705]]), array([[103]]), array([[493]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['10/150304453.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[7]]), array([[591]]), array([[52]]), array([[365]]), array([[406]], dtype=uint16), array([[604]], dtype=uint16))
+  (array(['10/150304480.thumb.jpg'], dtype='<U22'), array([[9]], dtype=uint8), array([[64]]), array([[282]]), array([[54]]), array([[197]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['10/150304536.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[27]]), array([[779]]), array([[129]]), array([[524]]), array([[571]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['10/150304550.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[31]]), array([[457]]), array([[27]]), array([[301]]), array([[320]], dtype=uint16), array([[495]], dtype=uint16))
+  (array(['10/150304672.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[150]]), array([[387]]), array([[275]]), array([[370]]), array([[419]], dtype=uint16), array([[588]], dtype=uint16))
+  (array(['10/150304734.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[116]]), array([[373]]), array([[71]]), array([[282]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['10/150304740.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[1]]), array([[269]]), array([[1]]), array([[202]]), array([[203]], dtype=uint8), array([[270]], dtype=uint16))
+  (array(['10/150304813.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[75]]), array([[718]]), array([[60]]), array([[408]]), array([[469]], dtype=uint16), array([[750]], dtype=uint16))
+  (array(['10/150304828.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[23]]), array([[276]]), array([[33]]), array([[163]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['10/150304871.jpg'], dtype='<U16'), array([[9]], dtype=uint8), array([[8]]), array([[494]]), array([[54]]), array([[287]]), array([[315]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['11/150236121.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[28]]), array([[590]]), array([[41]]), array([[381]]), array([[412]], dtype=uint16), array([[620]], dtype=uint16))
+  (array(['11/150236136.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[28]]), array([[671]]), array([[76]]), array([[416]]), array([[463]], dtype=uint16), array([[695]], dtype=uint16))
+  (array(['11/150236191.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[44]]), array([[751]]), array([[21]]), array([[477]]), array([[512]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['11/150236292.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[37]]), array([[653]]), array([[104]]), array([[430]]), array([[466]], dtype=uint16), array([[700]], dtype=uint16))
+  (array(['11/150236417.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[198]]), array([[600]]), array([[129]]), array([[346]]), array([[478]], dtype=uint16), array([[717]], dtype=uint16))
+  (array(['11/150236500.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[29]]), array([[629]]), array([[26]]), array([[380]]), array([[434]], dtype=uint16), array([[655]], dtype=uint16))
+  (array(['11/150236516.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[123]]), array([[562]]), array([[52]]), array([[403]]), array([[427]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/150237008.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[21]]), array([[609]]), array([[79]]), array([[305]]), array([[418]], dtype=uint16), array([[630]], dtype=uint16))
+  (array(['11/150237218.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[253]]), array([[1040]]), array([[111]]), array([[730]]), array([[857]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['11/150237511.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[41]]), array([[594]]), array([[49]]), array([[442]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/150237561.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[75]]), array([[1181]]), array([[123]]), array([[690]]), array([[782]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['11/150237971.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[23]]), array([[737]]), array([[379]]), array([[841]]), array([[1000]], dtype=uint16), array([[747]], dtype=uint16))
+  (array(['11/150238265.thumb.jpg'], dtype='<U22'), array([[10]], dtype=uint8), array([[27]]), array([[245]]), array([[10]]), array([[174]]), array([[184]], dtype=uint8), array([[274]], dtype=uint16))
+  (array(['11/150238290.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[184]]), array([[684]]), array([[45]]), array([[417]]), array([[469]], dtype=uint16), array([[750]], dtype=uint16))
+  (array(['11/150238470.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[158]]), array([[905]]), array([[85]]), array([[571]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['11/150238679.thumb.jpg'], dtype='<U22'), array([[10]], dtype=uint8), array([[1]]), array([[251]]), array([[12]]), array([[181]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['11/150238717.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[41]]), array([[612]]), array([[62]]), array([[436]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/150239011.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[145]]), array([[684]]), array([[80]]), array([[351]]), array([[469]], dtype=uint16), array([[750]], dtype=uint16))
+  (array(['11/150239055.thumb.jpg'], dtype='<U22'), array([[10]], dtype=uint8), array([[17]]), array([[284]]), array([[58]]), array([[169]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['11/150239338.thumb.jpg'], dtype='<U22'), array([[10]], dtype=uint8), array([[22]]), array([[282]]), array([[51]]), array([[170]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['11/150239391.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[1]]), array([[1010]]), array([[1]]), array([[688]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['11/150239487.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[166]]), array([[1133]]), array([[35]]), array([[814]]), array([[850]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['11/150239771.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[22]]), array([[266]]), array([[49]]), array([[185]]), array([[214]], dtype=uint8), array([[285]], dtype=uint16))
+  (array(['11/150239878.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[32]]), array([[597]]), array([[78]]), array([[374]]), array([[418]], dtype=uint16), array([[630]], dtype=uint16))
+  (array(['11/150240007.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[13]]), array([[388]]), array([[30]]), array([[291]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['11/150240034.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[163]]), array([[1760]]), array([[279]]), array([[1103]]), array([[1280]], dtype=uint16), array([[1921]], dtype=uint16))
+  (array(['11/150240329.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[46]]), array([[904]]), array([[330]]), array([[809]]), array([[960]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['11/150240464.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[15]]), array([[514]]), array([[15]]), array([[388]]), array([[418]], dtype=uint16), array([[630]], dtype=uint16))
+  (array(['11/150240472.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[1]]), array([[175]]), array([[24]]), array([[110]]), array([[132]], dtype=uint8), array([[176]], dtype=uint8))
+  (array(['11/150241087.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[68]]), array([[1128]]), array([[201]]), array([[655]]), array([[800]], dtype=uint16), array([[1200]], dtype=uint16))
+  (array(['11/150241198.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[20]]), array([[624]]), array([[37]]), array([[368]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/150241356.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[96]]), array([[919]]), array([[23]]), array([[622]]), array([[682]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['11/150241489.thumb.jpg'], dtype='<U22'), array([[10]], dtype=uint8), array([[14]]), array([[281]]), array([[17]]), array([[202]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['11/150241587.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[1]]), array([[606]]), array([[1]]), array([[431]]), array([[444]], dtype=uint16), array([[607]], dtype=uint16))
+  (array(['11/150241987.thumb.jpg'], dtype='<U22'), array([[10]], dtype=uint8), array([[14]]), array([[256]]), array([[54]]), array([[167]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['11/150242127.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[50]]), array([[454]]), array([[80]]), array([[298]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['11/150242478.jpg'], dtype='<U16'), array([[10]], dtype=uint8), array([[59]]), array([[1067]]), array([[243]]), array([[703]]), array([[731]], dtype=uint16), array([[1100]], dtype=uint16))
+  (array(['1/150079887.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[75]]), array([[601]]), array([[78]]), array([[448]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150080038.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[29]]), array([[387]]), array([[4]]), array([[345]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['1/150080476.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[54]]), array([[955]]), array([[125]]), array([[614]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150080490.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[135]]), array([[993]]), array([[244]]), array([[675]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150080705.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[28]]), array([[462]]), array([[65]]), array([[284]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['1/150080973.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[19]]), array([[237]]), array([[34]]), array([[153]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['1/150081110.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[18]]), array([[467]]), array([[15]]), array([[301]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['1/150081573.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[12]]), array([[265]]), array([[6]]), array([[164]]), array([[182]], dtype=uint8), array([[276]], dtype=uint16))
+  (array(['1/150081589.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[15]]), array([[248]]), array([[31]]), array([[160]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['1/150081888.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[50]]), array([[443]]), array([[65]]), array([[276]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['1/150082359.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[17]]), array([[424]]), array([[25]]), array([[247]]), array([[280]], dtype=uint16), array([[433]], dtype=uint16))
+  (array(['1/150082962.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[114]]), array([[881]]), array([[232]]), array([[680]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150082992.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[14]]), array([[485]]), array([[62]]), array([[337]]), array([[375]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['1/150083295.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[13]]), array([[449]]), array([[33]]), array([[321]]), array([[421]], dtype=uint16), array([[562]], dtype=uint16))
+  (array(['1/150083324.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[70]]), array([[879]]), array([[122]]), array([[624]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150083647.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[3]]), array([[319]]), array([[1]]), array([[147]]), array([[148]], dtype=uint8), array([[320]], dtype=uint16))
+  (array(['1/150083719.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[40]]), array([[758]]), array([[49]]), array([[454]]), array([[530]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['1/150083780.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[75]]), array([[543]]), array([[99]]), array([[389]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150084051.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[41]]), array([[612]]), array([[72]]), array([[381]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150084056.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[71]]), array([[552]]), array([[78]]), array([[372]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150084171.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[31]]), array([[443]]), array([[81]]), array([[296]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['1/150084715.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[11]]), array([[248]]), array([[31]]), array([[176]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['1/150084952.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[122]]), array([[713]]), array([[203]]), array([[625]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150084991.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[96]]), array([[527]]), array([[39]]), array([[361]]), array([[478]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150085089.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[73]]), array([[584]]), array([[76]]), array([[446]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150085363.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[20]]), array([[263]]), array([[20]]), array([[192]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['1/150085397.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[9]]), array([[270]]), array([[29]]), array([[179]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['1/150085495.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[48]]), array([[367]]), array([[48]]), array([[288]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['1/150085542.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[17]]), array([[545]]), array([[56]]), array([[412]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150085649.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[19]]), array([[278]]), array([[55]]), array([[213]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['1/150086093.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[19]]), array([[790]]), array([[69]]), array([[500]]), array([[534]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['1/150086217.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[12]]), array([[620]]), array([[44]]), array([[426]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150086282.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[139]]), array([[444]]), array([[123]]), array([[345]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150100259.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[6]]), array([[246]]), array([[26]]), array([[165]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['1/150100437.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[34]]), array([[222]]), array([[23]]), array([[162]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['1/150100755.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[17]]), array([[254]]), array([[12]]), array([[193]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['1/150100905.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[16]]), array([[612]]), array([[55]]), array([[535]]), array([[547]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150101015.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[98]]), array([[958]]), array([[199]]), array([[613]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150101084.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[113]]), array([[1234]]), array([[138]]), array([[705]]), array([[782]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['1/150101196.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[100]]), array([[530]]), array([[69]]), array([[400]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150101560.thumb.jpg'], dtype='<U21'), array([[1]], dtype=uint8), array([[27]]), array([[299]]), array([[36]]), array([[193]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['1/150101815.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[57]]), array([[357]]), array([[15]]), array([[248]]), array([[268]], dtype=uint16), array([[405]], dtype=uint16))
+  (array(['1/150101960.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[65]]), array([[569]]), array([[34]]), array([[380]]), array([[434]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150102021.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[94]]), array([[447]]), array([[48]]), array([[341]]), array([[375]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['1/150102427.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[24]]), array([[1009]]), array([[183]]), array([[677]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['1/150102991.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[43]]), array([[600]]), array([[53]]), array([[376]]), array([[427]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150103428.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[34]]), array([[577]]), array([[20]]), array([[429]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150103548.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[9]]), array([[630]]), array([[69]]), array([[426]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150103629.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[66]]), array([[601]]), array([[28]]), array([[456]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150105059.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[40]]), array([[469]]), array([[49]]), array([[271]]), array([[295]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['1/150105100.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[15]]), array([[625]]), array([[168]]), array([[479]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150105462.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[36]]), array([[584]]), array([[60]]), array([[427]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['1/150105852.jpg'], dtype='<U15'), array([[1]], dtype=uint8), array([[194]]), array([[1002]]), array([[185]]), array([[479]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['11/5805310844_5d66ef1c41_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[218]]), array([[626]]), array([[160]]), array([[313]]), array([[397]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/5954601831_422eda0094_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[195]]), array([[623]]), array([[163]]), array([[393]]), array([[411]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/6338367412_abfbb2421a_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[69]]), array([[590]]), array([[43]]), array([[341]]), array([[431]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/6776852761_0cdd6fc3b6.jpeg'], dtype='<U29'), array([[10]], dtype=uint8), array([[90]]), array([[448]]), array([[112]]), array([[240]]), array([[338]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['11/6776853663_aa7049c1b5.jpeg'], dtype='<U29'), array([[10]], dtype=uint8), array([[139]]), array([[475]]), array([[112]]), array([[238]]), array([[280]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['11/7170736926_4baf75c586_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[44]]), array([[580]]), array([[66]]), array([[412]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/7384634278_7742555251_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[53]]), array([[495]]), array([[116]]), array([[399]]), array([[426]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/7389021496_bf447b529f.jpeg'], dtype='<U29'), array([[10]], dtype=uint8), array([[79]]), array([[424]]), array([[63]]), array([[302]]), array([[312]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['11/7395018602_82ab7ae7a9.jpeg'], dtype='<U29'), array([[10]], dtype=uint8), array([[81]]), array([[401]]), array([[74]]), array([[299]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['11/7659966374_96a72b1d03_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[178]]), array([[613]]), array([[222]]), array([[387]]), array([[399]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/7838713990_803a905517_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[32]]), array([[395]]), array([[99]]), array([[376]]), array([[427]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/7875168954_18c549bf6d.jpeg'], dtype='<U29'), array([[10]], dtype=uint8), array([[18]]), array([[488]]), array([[60]]), array([[270]]), array([[322]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['11/8057028683_a8eb0a2605_z.jpeg'], dtype='<U31'), array([[10]], dtype=uint8), array([[69]]), array([[540]]), array([[60]]), array([[382]]), array([[427]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['11/jpeg.jpeg'], dtype='<U12'), array([[10]], dtype=uint8), array([[282]]), array([[629]]), array([[132]]), array([[349]]), array([[423]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150121274.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[57]]), array([[561]]), array([[86]]), array([[408]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150121275.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[19]]), array([[282]]), array([[25]]), array([[189]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150121326.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[11]]), array([[469]]), array([[105]]), array([[329]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['2/150121456.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[14]]), array([[629]]), array([[69]]), array([[426]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150121630.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[20]]), array([[254]]), array([[44]]), array([[157]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150122386.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[26]]), array([[199]]), array([[34]]), array([[160]]), array([[194]], dtype=uint8), array([[260]], dtype=uint16))
+  (array(['2/150123067.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[37]]), array([[371]]), array([[14]]), array([[205]]), array([[263]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['2/150123221.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[32]]), array([[612]]), array([[49]]), array([[338]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150123312.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[8]]), array([[286]]), array([[4]]), array([[191]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150123541.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[112]]), array([[1858]]), array([[318]]), array([[1124]]), array([[1320]], dtype=uint16), array([[2000]], dtype=uint16))
+  (array(['2/150123831.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[27]]), array([[237]]), array([[28]]), array([[150]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150123986.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[25]]), array([[218]]), array([[21]]), array([[181]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150124042.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[196]]), array([[753]]), array([[160]]), array([[544]]), array([[768]], dtype=uint16), array([[960]], dtype=uint16))
+  (array(['2/150124091.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[14]]), array([[241]]), array([[25]]), array([[159]]), array([[192]], dtype=uint8), array([[256]], dtype=uint16))
+  (array(['2/150124827.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[11]]), array([[246]]), array([[31]]), array([[155]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150126693.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[82]]), array([[485]]), array([[39]]), array([[326]]), array([[355]], dtype=uint16), array([[569]], dtype=uint16))
+  (array(['2/150126947.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[13]]), array([[283]]), array([[17]]), array([[198]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150127530.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[14]]), array([[229]]), array([[19]]), array([[175]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150128595.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[7]]), array([[244]]), array([[30]]), array([[174]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150128966.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[4]]), array([[237]]), array([[7]]), array([[156]]), array([[159]], dtype=uint8), array([[240]], dtype=uint8))
+  (array(['2/150146631.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[7]]), array([[272]]), array([[48]]), array([[195]]), array([[214]], dtype=uint8), array([[285]], dtype=uint16))
+  (array(['2/150146770.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[37]]), array([[580]]), array([[73]]), array([[382]]), array([[446]], dtype=uint16), array([[590]], dtype=uint16))
+  (array(['2/150147698.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[25]]), array([[253]]), array([[8]]), array([[174]]), array([[180]], dtype=uint8), array([[281]], dtype=uint16))
+  (array(['2/150148094.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[24]]), array([[420]]), array([[53]]), array([[240]]), array([[268]], dtype=uint16), array([[440]], dtype=uint16))
+  (array(['2/150148246.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[20]]), array([[625]]), array([[20]]), array([[404]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150148352.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[33]]), array([[367]]), array([[3]]), array([[297]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['2/150148510.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[14]]), array([[466]]), array([[93]]), array([[343]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['2/150149207.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[7]]), array([[149]]), array([[12]]), array([[107]]), array([[112]], dtype=uint8), array([[152]], dtype=uint8))
+  (array(['2/150149773.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[49]]), array([[547]]), array([[33]]), array([[317]]), array([[342]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150149815.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[78]]), array([[940]]), array([[45]]), array([[626]]), array([[678]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['2/150149982.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[47]]), array([[267]]), array([[56]]), array([[194]]), array([[200]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150150545.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[23]]), array([[433]]), array([[87]]), array([[266]]), array([[328]], dtype=uint16), array([[525]], dtype=uint16))
+  (array(['2/150150684.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[21]]), array([[621]]), array([[15]]), array([[450]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150151221.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[70]]), array([[593]]), array([[115]]), array([[382]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150151528.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[71]]), array([[418]]), array([[80]]), array([[269]]), array([[299]], dtype=uint16), array([[448]], dtype=uint16))
+  (array(['2/150151596.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[36]]), array([[283]]), array([[60]]), array([[207]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150151761.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[185]]), array([[1084]]), array([[38]]), array([[795]]), array([[853]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['2/150153229.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[162]]), array([[1107]]), array([[463]]), array([[869]]), array([[1061]], dtype=uint16), array([[1417]], dtype=uint16))
+  (array(['2/150153540.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[12]]), array([[262]]), array([[4]]), array([[168]]), array([[184]], dtype=uint8), array([[274]], dtype=uint16))
+  (array(['2/150154102.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[79]]), array([[357]]), array([[71]]), array([[282]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['2/150154201.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[225]]), array([[1438]]), array([[261]]), array([[1080]]), array([[1200]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['2/150154264.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[34]]), array([[615]]), array([[48]]), array([[383]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150173200.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[118]]), array([[942]]), array([[269]]), array([[584]]), array([[680]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['2/150175671.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[15]]), array([[290]]), array([[40]]), array([[191]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150175739.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[8]]), array([[297]]), array([[81]]), array([[215]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['2/150175957.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[19]]), array([[232]]), array([[38]]), array([[150]]), array([[192]], dtype=uint8), array([[256]], dtype=uint16))
+  (array(['2/150176130.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[22]]), array([[383]]), array([[72]]), array([[258]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['2/150178298.thumb.jpg'], dtype='<U21'), array([[2]], dtype=uint8), array([[26]]), array([[206]]), array([[78]]), array([[166]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['2/150178353.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[113]]), array([[518]]), array([[31]]), array([[385]]), array([[430]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150178396.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[58]]), array([[347]]), array([[32]]), array([[264]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['2/150178398.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[35]]), array([[625]]), array([[37]]), array([[378]]), array([[428]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['2/150178614.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[16]]), array([[388]]), array([[104]]), array([[288]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['2/150178738.jpg'], dtype='<U15'), array([[2]], dtype=uint8), array([[73]]), array([[394]]), array([[33]]), array([[241]]), array([[262]], dtype=uint16), array([[429]], dtype=uint16))
+  (array(['3/150197528.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[29]]), array([[603]]), array([[96]]), array([[396]]), array([[426]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['3/150197986.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[171]]), array([[474]]), array([[93]]), array([[288]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['3/150198076.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[77]]), array([[686]]), array([[127]]), array([[505]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['3/150198133.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[85]]), array([[460]]), array([[88]]), array([[303]]), array([[332]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['3/150198209.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[11]]), array([[419]]), array([[65]]), array([[300]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['3/150198303.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[49]]), array([[582]]), array([[78]]), array([[349]]), array([[389]], dtype=uint16), array([[623]], dtype=uint16))
+  (array(['3/150198310.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[195]]), array([[533]]), array([[84]]), array([[352]]), array([[466]], dtype=uint16), array([[677]], dtype=uint16))
+  (array(['3/150198615.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[33]]), array([[446]]), array([[44]]), array([[351]]), array([[370]], dtype=uint16), array([[516]], dtype=uint16))
+  (array(['3/150198721.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[38]]), array([[590]]), array([[82]]), array([[393]]), array([[418]], dtype=uint16), array([[628]], dtype=uint16))
+  (array(['3/150198942.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[544]]), array([[1628]]), array([[153]]), array([[1019]]), array([[1200]], dtype=uint16), array([[1807]], dtype=uint16))
+  (array(['3/150199165.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[229]]), array([[855]]), array([[196]]), array([[454]]), array([[640]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/150199356.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[37]]), array([[587]]), array([[125]]), array([[372]]), array([[417]], dtype=uint16), array([[628]], dtype=uint16))
+  (array(['3/150199659.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[193]]), array([[886]]), array([[243]]), array([[587]]), array([[682]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/150199744.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[20]]), array([[489]]), array([[21]]), array([[319]]), array([[331]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['3/150199807.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[123]]), array([[896]]), array([[42]]), array([[632]]), array([[664]], dtype=uint16), array([[1000]], dtype=uint16))
+  (array(['3/150199968.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[34]]), array([[454]]), array([[117]]), array([[293]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['3/150200088.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[18]]), array([[453]]), array([[16]]), array([[248]]), array([[265]], dtype=uint16), array([[470]], dtype=uint16))
+  (array(['3/150200118.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[261]]), array([[1330]]), array([[238]]), array([[797]]), array([[988]], dtype=uint16), array([[1452]], dtype=uint16))
+  (array(['3/150200164.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[44]]), array([[532]]), array([[56]]), array([[282]]), array([[348]], dtype=uint16), array([[580]], dtype=uint16))
+  (array(['3/150200633.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[22]]), array([[443]]), array([[26]]), array([[249]]), array([[265]], dtype=uint16), array([[470]], dtype=uint16))
+  (array(['3/150200699.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[290]]), array([[1270]]), array([[304]]), array([[737]]), array([[938]], dtype=uint16), array([[1500]], dtype=uint16))
+  (array(['3/150200896.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[17]]), array([[960]]), array([[74]]), array([[667]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/150200953.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[32]]), array([[532]]), array([[96]]), array([[347]]), array([[349]], dtype=uint16), array([[560]], dtype=uint16))
+  (array(['3/150201049.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[162]]), array([[907]]), array([[93]]), array([[639]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/150201087.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[216]]), array([[442]]), array([[151]]), array([[265]]), array([[318]], dtype=uint16), array([[520]], dtype=uint16))
+  (array(['3/150201191.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[175]]), array([[665]]), array([[132]]), array([[504]]), array([[565]], dtype=uint16), array([[850]], dtype=uint16))
+  (array(['3/150201292.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[224]]), array([[1918]]), array([[316]]), array([[1236]]), array([[1536]], dtype=uint16), array([[2048]], dtype=uint16))
+  (array(['3/150201333.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[65]]), array([[440]]), array([[49]]), array([[236]]), array([[315]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['3/150201337.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[267]]), array([[2420]]), array([[246]]), array([[1859]]), array([[2072]], dtype=uint16), array([[2705]], dtype=uint16))
+  (array(['3/150201563.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[63]]), array([[254]]), array([[77]]), array([[187]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['3/150201648.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[141]]), array([[457]]), array([[153]]), array([[318]]), array([[396]], dtype=uint16), array([[646]], dtype=uint16))
+  (array(['3/150201820.jpg'], dtype='<U15'), array([[3]], dtype=uint8), array([[16]]), array([[277]]), array([[63]]), array([[182]]), array([[222]], dtype=uint8), array([[296]], dtype=uint16))
+  (array(['3/2012-bmw-3-series_100380965_l.jpeg'], dtype='<U36'), array([[3]], dtype=uint8), array([[106]]), array([[953]]), array([[142]]), array([[683]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/2012-BMW-3-series-front-view-6.jpeg'], dtype='<U37'), array([[3]], dtype=uint8), array([[89]]), array([[648]]), array([[14]]), array([[465]]), array([[469]], dtype=uint16), array([[750]], dtype=uint16))
+  (array(['3/6685406937_f3d0d3c950_o.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[44]]), array([[980]]), array([[90]]), array([[596]]), array([[728]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/67163627.jpeg'], dtype='<U15'), array([[3]], dtype=uint8), array([[26]]), array([[460]]), array([[103]]), array([[329]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['3/6753583699_e0bd9b1424.jpg'], dtype='<U27'), array([[3]], dtype=uint8), array([[58]]), array([[446]]), array([[15]]), array([[315]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['3/6912273093_8ef399a599_b.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[50]]), array([[979]]), array([[41]]), array([[637]]), array([[678]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/7442015152_7660dc32e9_o.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[481]]), array([[3507]]), array([[389]]), array([[2509]]), array([[3000]], dtype=uint16), array([[4000]], dtype=uint16))
+  (array(['3/7442017340_07afac5fc7.jpeg'], dtype='<U28'), array([[3]], dtype=uint8), array([[49]]), array([[466]]), array([[47]]), array([[329]]), array([[375]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['3/7894238946_20405da846_o.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[183]]), array([[1222]]), array([[307]]), array([[778]]), array([[1040]], dtype=uint16), array([[1386]], dtype=uint16))
+  (array(['3/7894240418_7d3f06023f_o.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[316]]), array([[2021]]), array([[496]]), array([[1295]]), array([[1719]], dtype=uint16), array([[2293]], dtype=uint16))
+  (array(['3/8051422530_69f30e94cd_b.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[55]]), array([[929]]), array([[116]]), array([[622]]), array([[683]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['3/8163804713_c44fb78581_o.jpg'], dtype='<U29'), array([[3]], dtype=uint8), array([[1271]]), array([[4120]]), array([[491]]), array([[2662]]), array([[3456]], dtype=uint16), array([[5184]], dtype=uint16))
+  (array(['3/B14662-2012-BMW-3-Series-328i-Alpine-White.jpeg'], dtype='<U49'), array([[3]], dtype=uint8), array([[38]]), array([[573]]), array([[11]]), array([[378]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['3/bm20123seriessedan60049168.jpeg'], dtype='<U33'), array([[3]], dtype=uint8), array([[84]]), array([[1107]]), array([[119]]), array([[618]]), array([[900]], dtype=uint16), array([[1200]], dtype=uint16))
+  (array(['3/DSC_0253b-630x378.jpeg'], dtype='<U24'), array([[3]], dtype=uint8), array([[28]]), array([[611]]), array([[70]]), array([[355]]), array([[378]], dtype=uint16), array([[630]], dtype=uint16))
+  (array(['3/fe8c9b483356015d8d3c04bd4fe4820bfff9cce0.jpeg'], dtype='<U47'), array([[3]], dtype=uint8), array([[25]]), array([[230]]), array([[26]]), array([[170]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['3/thelastpictureyay.jpg'], dtype='<U23'), array([[3]], dtype=uint8), array([[187]]), array([[1982]]), array([[192]]), array([[1396]]), array([[1536]], dtype=uint16), array([[2048]], dtype=uint16))
+  (array(['3/used-2012-bmw-3_series-4drsdn328irwd-8522-8507368-2-400.jpeg'],
+        dtype='<U62'), array([[3]], dtype=uint8), array([[23]]), array([[372]]), array([[13]]), array([[274]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['4/149105744.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[8]]), array([[469]]), array([[71]]), array([[325]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['4/149106035.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[24]]), array([[239]]), array([[20]]), array([[182]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149106052.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[19]]), array([[992]]), array([[98]]), array([[676]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['4/149106128.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[13]]), array([[288]]), array([[16]]), array([[200]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['4/149106309.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[14]]), array([[228]]), array([[14]]), array([[168]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149106353.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[11]]), array([[453]]), array([[108]]), array([[342]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['4/149106456.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[20]]), array([[361]]), array([[35]]), array([[205]]), array([[228]], dtype=uint8), array([[380]], dtype=uint16))
+  (array(['4/149106459.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[149]]), array([[851]]), array([[133]]), array([[666]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['4/149106598.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[23]]), array([[380]]), array([[27]]), array([[227]]), array([[267]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['4/149106905.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[10]]), array([[229]]), array([[24]]), array([[173]]), array([[184]], dtype=uint8), array([[274]], dtype=uint16))
+  (array(['4/149107184.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[10]]), array([[289]]), array([[7]]), array([[196]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['4/149107219.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[26]]), array([[457]]), array([[69]]), array([[305]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['4/149107331.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[5]]), array([[414]]), array([[40]]), array([[293]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['4/149107473.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[82]]), array([[546]]), array([[33]]), array([[395]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149107500.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[13]]), array([[622]]), array([[164]]), array([[468]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149107510.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[7]]), array([[392]]), array([[38]]), array([[244]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['4/149107567.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[10]]), array([[239]]), array([[40]]), array([[166]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149107895.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[21]]), array([[462]]), array([[118]]), array([[327]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['4/149107938.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[6]]), array([[155]]), array([[30]]), array([[109]]), array([[120]], dtype=uint8), array([[160]], dtype=uint8))
+  (array(['4/149108025.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[140]]), array([[493]]), array([[77]]), array([[387]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149108048.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[35]]), array([[736]]), array([[66]]), array([[456]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['4/149108251.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[57]]), array([[590]]), array([[29]]), array([[354]]), array([[400]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149108439.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[20]]), array([[371]]), array([[70]]), array([[209]]), array([[228]], dtype=uint8), array([[380]], dtype=uint16))
+  (array(['4/149108476.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[32]]), array([[609]]), array([[78]]), array([[405]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149108669.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[109]]), array([[889]]), array([[201]]), array([[716]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['4/149108817.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[3]]), array([[251]]), array([[23]]), array([[173]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149108918.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[15]]), array([[626]]), array([[49]]), array([[408]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149108970.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[16]]), array([[468]]), array([[110]]), array([[329]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['4/149109147.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[23]]), array([[145]]), array([[25]]), array([[106]]), array([[120]], dtype=uint8), array([[160]], dtype=uint8))
+  (array(['4/149109212.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[10]]), array([[617]]), array([[63]]), array([[365]]), array([[426]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149109224.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[15]]), array([[268]]), array([[27]]), array([[167]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['4/149109321.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[64]]), array([[344]]), array([[23]]), array([[228]]), array([[298]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['4/149109454.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[14]]), array([[255]]), array([[60]]), array([[165]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149109523.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[35]]), array([[225]]), array([[30]]), array([[170]]), array([[192]], dtype=uint8), array([[256]], dtype=uint16))
+  (array(['4/149109598.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[15]]), array([[282]]), array([[23]]), array([[192]]), array([[199]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['4/149109724.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[99]]), array([[867]]), array([[137]]), array([[558]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['4/149110009.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[13]]), array([[249]]), array([[47]]), array([[177]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149110168.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[2]]), array([[478]]), array([[75]]), array([[341]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['4/149110585.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[12]]), array([[633]]), array([[43]]), array([[449]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149110614.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[55]]), array([[599]]), array([[71]]), array([[385]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149110817.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[8]]), array([[254]]), array([[39]]), array([[170]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149110820.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[9]]), array([[397]]), array([[70]]), array([[293]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['4/149110995.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[19]]), array([[495]]), array([[115]]), array([[337]]), array([[389]], dtype=uint16), array([[518]], dtype=uint16))
+  (array(['4/149111068.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[26]]), array([[610]]), array([[54]]), array([[370]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149111096.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[24]]), array([[238]]), array([[35]]), array([[163]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149111250.thumb.jpg'], dtype='<U21'), array([[4]], dtype=uint8), array([[35]]), array([[218]]), array([[38]]), array([[145]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['4/149111513.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[13]]), array([[146]]), array([[20]]), array([[95]]), array([[114]], dtype=uint8), array([[152]], dtype=uint8))
+  (array(['4/149111530.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[49]]), array([[578]]), array([[17]]), array([[470]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['4/149111546.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[9]]), array([[275]]), array([[33]]), array([[197]]), array([[214]], dtype=uint8), array([[285]], dtype=uint16))
+  (array(['4/149111813.jpg'], dtype='<U15'), array([[4]], dtype=uint8), array([[19]]), array([[433]]), array([[18]]), array([[214]]), array([[225]], dtype=uint8), array([[450]], dtype=uint16))
+  (array(['5/149114500.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[2]]), array([[249]]), array([[12]]), array([[186]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['5/149114751.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[38]]), array([[1004]]), array([[175]]), array([[671]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['5/149115218.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[34]]), array([[618]]), array([[136]]), array([[421]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149115503.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[5]]), array([[269]]), array([[15]]), array([[162]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['5/149115591.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[29]]), array([[457]]), array([[13]]), array([[311]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['5/149116868.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[4]]), array([[619]]), array([[41]]), array([[391]]), array([[427]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149117072.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[4]]), array([[253]]), array([[41]]), array([[164]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['5/149117459.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[43]]), array([[601]]), array([[47]]), array([[421]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149117602.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[15]]), array([[382]]), array([[32]]), array([[241]]), array([[268]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['5/149117665.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[99]]), array([[423]]), array([[183]]), array([[352]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['5/149117705.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[14]]), array([[471]]), array([[114]]), array([[334]]), array([[340]], dtype=uint16), array([[600]], dtype=uint16))
+  (array(['5/149117907.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[41]]), array([[321]]), array([[138]]), array([[271]]), array([[296]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['5/149118249.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[120]]), array([[521]]), array([[22]]), array([[345]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149118336.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[29]]), array([[615]]), array([[84]]), array([[362]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149118878.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[91]]), array([[542]]), array([[105]]), array([[361]]), array([[442]], dtype=uint16), array([[590]], dtype=uint16))
+  (array(['5/149119681.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[34]]), array([[976]]), array([[244]]), array([[746]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['5/149119727.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[20]]), array([[415]]), array([[53]]), array([[295]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['5/149120933.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[70]]), array([[897]]), array([[179]]), array([[567]]), array([[603]], dtype=uint16), array([[986]], dtype=uint16))
+  (array(['5/149121231.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[97]]), array([[358]]), array([[70]]), array([[298]]), array([[338]], dtype=uint16), array([[450]], dtype=uint16))
+  (array(['5/149124197.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[49]]), array([[364]]), array([[52]]), array([[258]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['5/149124216.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[83]]), array([[537]]), array([[99]]), array([[329]]), array([[416]], dtype=uint16), array([[625]], dtype=uint16))
+  (array(['5/149124761.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[33]]), array([[232]]), array([[10]]), array([[177]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['5/149124940.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[24]]), array([[581]]), array([[88]]), array([[416]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149125476.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[66]]), array([[688]]), array([[17]]), array([[545]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['5/149125888.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[14]]), array([[259]]), array([[10]]), array([[173]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['5/149126175.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[4]]), array([[295]]), array([[47]]), array([[176]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['5/149126548.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[13]]), array([[263]]), array([[32]]), array([[161]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['5/149126585.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[27]]), array([[316]]), array([[55]]), array([[193]]), array([[240]], dtype=uint8), array([[320]], dtype=uint16))
+  (array(['5/149127425.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[15]]), array([[630]]), array([[205]]), array([[460]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149129487.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[9]]), array([[420]]), array([[23]]), array([[328]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))
+  (array(['5/149129519.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[15]]), array([[625]]), array([[30]]), array([[392]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149129677.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[33]]), array([[599]]), array([[83]]), array([[410]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149129794.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[22]]), array([[624]]), array([[75]]), array([[341]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149130063.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[146]]), array([[485]]), array([[137]]), array([[427]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149130259.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[101]]), array([[564]]), array([[48]]), array([[385]]), array([[483]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149130408.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[35]]), array([[382]]), array([[43]]), array([[254]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['5/149130423.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[111]]), array([[340]]), array([[73]]), array([[190]]), array([[267]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['5/149130640.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[390]]), array([[1177]]), array([[324]]), array([[694]]), array([[944]], dtype=uint16), array([[1417]], dtype=uint16))
+  (array(['5/149130755.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[12]]), array([[198]]), array([[28]]), array([[130]]), array([[159]], dtype=uint8), array([[212]], dtype=uint8))
+  (array(['5/149130860.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[8]]), array([[265]]), array([[11]]), array([[159]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['5/149131038.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[18]]), array([[469]]), array([[77]]), array([[330]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['5/149131200.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[5]]), array([[269]]), array([[8]]), array([[169]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['5/149131508.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[45]]), array([[609]]), array([[97]]), array([[421]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149136308.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[5]]), array([[634]]), array([[24]]), array([[396]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149136355.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[121]]), array([[1471]]), array([[153]]), array([[1014]]), array([[1120]], dtype=uint16), array([[1680]], dtype=uint16))
+  (array(['5/149136642.thumb.jpg'], dtype='<U21'), array([[5]], dtype=uint8), array([[9]]), array([[239]]), array([[6]]), array([[165]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['5/149137276.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[53]]), array([[503]]), array([[113]]), array([[363]]), array([[420]], dtype=uint16), array([[560]], dtype=uint16))
+  (array(['5/149137386.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[42]]), array([[443]]), array([[91]]), array([[307]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['5/149137573.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[39]]), array([[446]]), array([[122]]), array([[329]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['5/149138229.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[113]]), array([[2418]]), array([[100]]), array([[1551]]), array([[1632]], dtype=uint16), array([[2464]], dtype=uint16))
+  (array(['5/149139102.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[21]]), array([[614]]), array([[59]]), array([[395]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['5/149140676.jpg'], dtype='<U15'), array([[5]], dtype=uint8), array([[27]]), array([[447]]), array([[47]]), array([[311]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['6/149141672.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[62]]), array([[554]]), array([[207]]), array([[402]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['6/149141694.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[122]]), array([[1154]]), array([[202]]), array([[702]]), array([[782]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['6/149141933.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[18]]), array([[281]]), array([[9]]), array([[207]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['6/149142072.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[10]]), array([[250]]), array([[50]]), array([[171]]), array([[192]], dtype=uint8), array([[256]], dtype=uint16))
+  (array(['6/149142618.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[75]]), array([[479]]), array([[133]]), array([[324]]), array([[387]], dtype=uint16), array([[580]], dtype=uint16))
+  (array(['6/149142776.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[8]]), array([[259]]), array([[15]]), array([[173]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['6/149143380.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[24]]), array([[611]]), array([[110]]), array([[382]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['6/149143430.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[12]]), array([[365]]), array([[92]]), array([[271]]), array([[283]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['6/149143533.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[77]]), array([[457]]), array([[264]]), array([[404]]), array([[436]], dtype=uint16), array([[655]], dtype=uint16))
+  (array(['6/149144003.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[32]]), array([[221]]), array([[39]]), array([[170]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['6/149144058.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[32]]), array([[592]]), array([[3]]), array([[424]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['6/149144163.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[195]]), array([[780]]), array([[170]]), array([[627]]), array([[683]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['6/149144592.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[15]]), array([[611]]), array([[150]]), array([[415]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['6/149144677.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[14]]), array([[252]]), array([[16]]), array([[215]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['6/149144874.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[20]]), array([[479]]), array([[76]]), array([[295]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['6/149144954.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[142]]), array([[551]]), array([[208]]), array([[421]]), array([[462]], dtype=uint16), array([[655]], dtype=uint16))
+  (array(['6/149145882.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[100]]), array([[920]]), array([[215]]), array([[584]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['6/149146052.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[140]]), array([[479]]), array([[124]]), array([[366]]), array([[420]], dtype=uint16), array([[560]], dtype=uint16))
+  (array(['6/149146070.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[170]]), array([[732]]), array([[110]]), array([[448]]), array([[584]], dtype=uint16), array([[876]], dtype=uint16))
+  (array(['6/149146451.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[18]]), array([[461]]), array([[59]]), array([[285]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['6/149146555.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[53]]), array([[325]]), array([[115]]), array([[227]]), array([[267]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['6/149146910.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[37]]), array([[589]]), array([[113]]), array([[393]]), array([[418]], dtype=uint16), array([[630]], dtype=uint16))
+  (array(['6/149146963.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[10]]), array([[478]]), array([[31]]), array([[329]]), array([[375]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['6/149147161.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[63]]), array([[926]]), array([[34]]), array([[564]]), array([[603]], dtype=uint16), array([[986]], dtype=uint16))
+  (array(['6/149147781.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[14]]), array([[614]]), array([[130]]), array([[448]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['6/149148108.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[19]]), array([[385]]), array([[73]]), array([[227]]), array([[242]], dtype=uint8), array([[400]], dtype=uint16))
+  (array(['6/149148168.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[151]]), array([[829]]), array([[174]]), array([[510]]), array([[584]], dtype=uint16), array([[885]], dtype=uint16))
+  (array(['6/149148529.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[26]]), array([[415]]), array([[51]]), array([[291]]), array([[317]], dtype=uint16), array([[440]], dtype=uint16))
+  (array(['6/149149251.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[21]]), array([[215]]), array([[59]]), array([[160]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['6/149149360.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[98]]), array([[502]]), array([[39]]), array([[347]]), array([[375]], dtype=uint16), array([[600]], dtype=uint16))
+  (array(['6/149150163.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[1]]), array([[157]]), array([[9]]), array([[103]]), array([[120]], dtype=uint8), array([[160]], dtype=uint8))
+  (array(['6/149150268.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[43]]), array([[969]]), array([[148]]), array([[534]]), array([[621]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['6/149150393.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[30]]), array([[943]]), array([[87]]), array([[630]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['6/149150619.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[236]]), array([[855]]), array([[269]]), array([[589]]), array([[683]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['6/149150891.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[7]]), array([[634]]), array([[76]]), array([[355]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['6/149150962.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[24]]), array([[376]]), array([[73]]), array([[254]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['6/149151445.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[10]]), array([[250]]), array([[32]]), array([[153]]), array([[192]], dtype=uint8), array([[256]], dtype=uint16))
+  (array(['6/149151621.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[50]]), array([[474]]), array([[126]]), array([[297]]), array([[318]], dtype=uint16), array([[520]], dtype=uint16))
+  (array(['6/149152503.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[42]]), array([[214]]), array([[32]]), array([[152]]), array([[192]], dtype=uint8), array([[256]], dtype=uint16))
+  (array(['6/149152784.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[213]]), array([[713]]), array([[40]]), array([[324]]), array([[335]], dtype=uint16), array([[758]], dtype=uint16))
+  (array(['6/149152785.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[30]]), array([[574]]), array([[81]]), array([[376]]), array([[398]], dtype=uint16), array([[600]], dtype=uint16))
+  (array(['6/149152841.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[67]]), array([[651]]), array([[117]]), array([[399]]), array([[496]], dtype=uint16), array([[744]], dtype=uint16))
+  (array(['6/149153507.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[21]]), array([[257]]), array([[88]]), array([[177]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['6/149153746.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[19]]), array([[447]]), array([[116]]), array([[274]]), array([[310]], dtype=uint16), array([[468]], dtype=uint16))
+  (array(['6/149154670.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[130]]), array([[1944]]), array([[501]]), array([[1280]]), array([[1536]], dtype=uint16), array([[2048]], dtype=uint16))
+  (array(['6/149155097.thumb.jpg'], dtype='<U21'), array([[6]], dtype=uint8), array([[21]]), array([[240]]), array([[9]]), array([[165]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['6/149156035.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[147]]), array([[948]]), array([[231]]), array([[589]]), array([[680]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['6/149156157.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[44]]), array([[561]]), array([[119]]), array([[388]]), array([[441]], dtype=uint16), array([[588]], dtype=uint16))
+  (array(['6/149156307.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[215]]), array([[1077]]), array([[185]]), array([[595]]), array([[782]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['6/149156955.jpg'], dtype='<U15'), array([[6]], dtype=uint8), array([[54]]), array([[311]]), array([[43]]), array([[175]]), array([[298]], dtype=uint16), array([[450]], dtype=uint16))
+  (array(['7/149460302.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[259]]), array([[1331]]), array([[588]]), array([[1183]]), array([[1200]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['7/149460660.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[28]]), array([[536]]), array([[9]]), array([[259]]), array([[264]], dtype=uint16), array([[569]], dtype=uint16))
+  (array(['7/149460749.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[93]]), array([[1303]]), array([[274]]), array([[841]]), array([[900]], dtype=uint16), array([[1400]], dtype=uint16))
+  (array(['7/149460774.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[20]]), array([[414]]), array([[58]]), array([[253]]), array([[282]], dtype=uint16), array([[428]], dtype=uint16))
+  (array(['7/149460929.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[28]]), array([[364]]), array([[77]]), array([[263]]), array([[299]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['7/149460935.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[30]]), array([[1581]]), array([[101]]), array([[1147]]), array([[1200]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['7/149461146.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[32]]), array([[609]]), array([[161]]), array([[451]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['7/149461474.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[9]]), array([[385]]), array([[47]]), array([[227]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['7/149461591.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[1]]), array([[399]]), array([[1]]), array([[299]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['7/149462215.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[66]]), array([[726]]), array([[139]]), array([[490]]), array([[537]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['7/149462267.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[14]]), array([[1013]]), array([[26]]), array([[432]]), array([[444]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['7/149462295.thumb.jpg'], dtype='<U21'), array([[7]], dtype=uint8), array([[21]]), array([[265]]), array([[48]]), array([[195]]), array([[225]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['7/149462394.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[53]]), array([[615]]), array([[62]]), array([[432]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['7/149462553.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[71]]), array([[1394]]), array([[145]]), array([[757]]), array([[1320]], dtype=uint16), array([[2000]], dtype=uint16))
+  (array(['7/149462594.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[6]]), array([[473]]), array([[132]]), array([[322]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['7/149462707.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[71]]), array([[506]]), array([[79]]), array([[375]]), array([[408]], dtype=uint16), array([[544]], dtype=uint16))
+  (array(['7/149462717.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[162]]), array([[1331]]), array([[133]]), array([[862]]), array([[900]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['7/149462785.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[33]]), array([[366]]), array([[51]]), array([[280]]), array([[309]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['7/149469394.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[77]]), array([[482]]), array([[122]]), array([[304]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149469483.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[13]]), array([[461]]), array([[210]]), array([[375]]), array([[388]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149469608.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[30]]), array([[680]]), array([[127]]), array([[511]]), array([[533]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['7/149469847.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[252]]), array([[472]]), array([[220]]), array([[340]]), array([[375]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149470324.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[85]]), array([[1103]]), array([[88]]), array([[635]]), array([[729]], dtype=uint16), array([[1200]], dtype=uint16))
+  (array(['7/149470376.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[11]]), array([[685]]), array([[24]]), array([[302]]), array([[331]], dtype=uint16), array([[689]], dtype=uint16))
+  (array(['7/149470462.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[105]]), array([[694]]), array([[69]]), array([[440]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['7/149470521.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[119]]), array([[451]]), array([[51]]), array([[211]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149470627.thumb.jpg'], dtype='<U21'), array([[7]], dtype=uint8), array([[21]]), array([[250]]), array([[16]]), array([[155]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['7/149470843.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[110]]), array([[582]]), array([[119]]), array([[358]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['7/149470876.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[42]]), array([[480]]), array([[24]]), array([[310]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149471044.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[47]]), array([[422]]), array([[67]]), array([[286]]), array([[332]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149471657.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[56]]), array([[446]]), array([[19]]), array([[308]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149471672.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[33]]), array([[464]]), array([[106]]), array([[282]]), array([[333]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149471737.thumb.jpg'], dtype='<U21'), array([[7]], dtype=uint8), array([[9]]), array([[256]]), array([[23]]), array([[169]]), array([[183]], dtype=uint8), array([[276]], dtype=uint16))
+  (array(['7/149471907.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[80]]), array([[437]]), array([[128]]), array([[267]]), array([[375]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['7/149477834.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[72]]), array([[989]]), array([[140]]), array([[587]]), array([[680]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['7/149477871.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[96]]), array([[1109]]), array([[107]]), array([[871]]), array([[960]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['7/149477930.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[39]]), array([[457]]), array([[25]]), array([[307]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['7/149478081.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[21]]), array([[733]]), array([[84]]), array([[553]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['7/149478466.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[24]]), array([[632]]), array([[106]]), array([[391]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['7/149479187.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[13]]), array([[622]]), array([[103]]), array([[355]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['7/149479832.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[31]]), array([[409]]), array([[60]]), array([[290]]), array([[330]], dtype=uint16), array([[440]], dtype=uint16))
+  (array(['7/149479931.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[117]]), array([[639]]), array([[155]]), array([[406]]), array([[492]], dtype=uint16), array([[786]], dtype=uint16))
+  (array(['7/149480792.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[21]]), array([[492]]), array([[17]]), array([[201]]), array([[222]], dtype=uint8), array([[510]], dtype=uint16))
+  (array(['7/149480829.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[57]]), array([[428]]), array([[19]]), array([[349]]), array([[379]], dtype=uint16), array([[505]], dtype=uint16))
+  (array(['7/149489766.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[25]]), array([[607]]), array([[100]]), array([[342]]), array([[425]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['7/149490348.thumb.jpg'], dtype='<U21'), array([[7]], dtype=uint8), array([[32]]), array([[261]]), array([[25]]), array([[198]]), array([[240]], dtype=uint8), array([[300]], dtype=uint16))
+  (array(['7/149490796.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[26]]), array([[1577]]), array([[404]]), array([[1094]]), array([[1200]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['7/149490939.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[67]]), array([[513]]), array([[43]]), array([[370]]), array([[392]], dtype=uint16), array([[588]], dtype=uint16))
+  (array(['7/149491667.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[4]]), array([[399]]), array([[24]]), array([[258]]), array([[267]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['7/149491934.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[41]]), array([[737]]), array([[24]]), array([[544]]), array([[600]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['7/149492304.jpg'], dtype='<U15'), array([[7]], dtype=uint8), array([[65]]), array([[453]]), array([[81]]), array([[302]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['8/149380280.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[37]]), array([[959]]), array([[167]]), array([[653]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149380548.thumb.jpg'], dtype='<U21'), array([[8]], dtype=uint8), array([[9]]), array([[274]]), array([[1]]), array([[168]]), array([[183]], dtype=uint8), array([[275]], dtype=uint16))
+  (array(['8/149380601.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[22]]), array([[302]]), array([[17]]), array([[233]]), array([[240]], dtype=uint8), array([[320]], dtype=uint16))
+  (array(['8/149380923.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[38]]), array([[635]]), array([[123]]), array([[423]]), array([[478]], dtype=uint16), array([[717]], dtype=uint16))
+  (array(['8/149380940.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[7]]), array([[522]]), array([[4]]), array([[418]]), array([[429]], dtype=uint16), array([[528]], dtype=uint16))
+  (array(['8/149381045.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[412]]), array([[1224]]), array([[183]]), array([[966]]), array([[1067]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['8/149381095.thumb.jpg'], dtype='<U21'), array([[8]], dtype=uint8), array([[34]]), array([[232]]), array([[9]]), array([[187]]), array([[194]], dtype=uint8), array([[259]], dtype=uint16))
+  (array(['8/149381461.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[7]]), array([[394]]), array([[28]]), array([[283]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['8/149381504.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[33]]), array([[621]]), array([[53]]), array([[419]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['8/149381590.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[46]]), array([[588]]), array([[101]]), array([[408]]), array([[480]], dtype=uint16), array([[639]], dtype=uint16))
+  (array(['8/149381769.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[76]]), array([[396]]), array([[169]]), array([[328]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['8/149382038.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[54]]), array([[396]]), array([[51]]), array([[200]]), array([[225]], dtype=uint8), array([[450]], dtype=uint16))
+  (array(['8/149382098.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[201]]), array([[509]]), array([[174]]), array([[404]]), array([[540]], dtype=uint16), array([[720]], dtype=uint16))
+  (array(['8/149382165.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[20]]), array([[370]]), array([[50]]), array([[273]]), array([[303]], dtype=uint16), array([[404]], dtype=uint16))
+  (array(['8/149382227.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[90]]), array([[1145]]), array([[238]]), array([[728]]), array([[900]], dtype=uint16), array([[1200]], dtype=uint16))
+  (array(['8/149382321.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[60]]), array([[969]]), array([[112]]), array([[644]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149382438.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[7]]), array([[369]]), array([[11]]), array([[257]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['8/149382483.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[28]]), array([[929]]), array([[124]]), array([[666]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149382552.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[117]]), array([[956]]), array([[156]]), array([[589]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149382636.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[182]]), array([[606]]), array([[15]]), array([[299]]), array([[404]], dtype=uint16), array([[720]], dtype=uint16))
+  (array(['8/149382830.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[108]]), array([[549]]), array([[76]]), array([[286]]), array([[335]], dtype=uint16), array([[758]], dtype=uint16))
+  (array(['8/149383306.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[12]]), array([[472]]), array([[82]]), array([[333]]), array([[360]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['8/149383718.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[152]]), array([[762]]), array([[183]]), array([[520]]), array([[640]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['8/149383845.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[177]]), array([[1081]]), array([[89]]), array([[714]]), array([[782]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['8/149384070.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[120]]), array([[359]]), array([[140]]), array([[270]]), array([[300]], dtype=uint16), array([[400]], dtype=uint16))
+  (array(['8/149384179.thumb.jpg'], dtype='<U21'), array([[8]], dtype=uint8), array([[1]]), array([[263]]), array([[1]]), array([[197]]), array([[198]], dtype=uint8), array([[264]], dtype=uint16))
+  (array(['8/149384294.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[391]]), array([[1243]]), array([[132]]), array([[839]]), array([[1050]], dtype=uint16), array([[1680]], dtype=uint16))
+  (array(['8/149384870.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[41]]), array([[574]]), array([[76]]), array([[333]]), array([[382]], dtype=uint16), array([[626]], dtype=uint16))
+  (array(['8/149385066.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[13]]), array([[145]]), array([[23]]), array([[99]]), array([[114]], dtype=uint8), array([[152]], dtype=uint8))
+  (array(['8/149385187.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[75]]), array([[555]]), array([[95]]), array([[417]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['8/149385190.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[274]]), array([[941]]), array([[163]]), array([[647]]), array([[855]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['8/149385467.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[27]]), array([[471]]), array([[68]]), array([[295]]), array([[315]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['8/149385509.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[183]]), array([[790]]), array([[194]]), array([[625]]), array([[750]], dtype=uint16), array([[1000]], dtype=uint16))
+  (array(['8/149385556.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[22]]), array([[419]]), array([[48]]), array([[254]]), array([[299]], dtype=uint16), array([[449]], dtype=uint16))
+  (array(['8/149385738.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[122]]), array([[965]]), array([[277]]), array([[705]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149386212.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[135]]), array([[421]]), array([[128]]), array([[318]]), array([[405]], dtype=uint16), array([[612]], dtype=uint16))
+  (array(['8/149386305.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[99]]), array([[907]]), array([[119]]), array([[615]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149386463.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[153]]), array([[1138]]), array([[68]]), array([[785]]), array([[853]], dtype=uint16), array([[1279]], dtype=uint16))
+  (array(['8/149386616.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[31]]), array([[674]]), array([[102]]), array([[395]]), array([[513]], dtype=uint16), array([[770]], dtype=uint16))
+  (array(['8/149386734.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[18]]), array([[1006]]), array([[142]]), array([[633]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149386998.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[6]]), array([[276]]), array([[12]]), array([[127]]), array([[140]], dtype=uint8), array([[280]], dtype=uint16))
+  (array(['8/149387044.thumb.jpg'], dtype='<U21'), array([[8]], dtype=uint8), array([[9]]), array([[190]]), array([[16]]), array([[116]]), array([[132]], dtype=uint8), array([[200]], dtype=uint8))
+  (array(['8/149387459.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[94]]), array([[402]]), array([[65]]), array([[264]]), array([[306]], dtype=uint16), array([[500]], dtype=uint16))
+  (array(['8/149387673.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[77]]), array([[1215]]), array([[163]]), array([[680]]), array([[960]], dtype=uint16), array([[1280]], dtype=uint16))
+  (array(['8/149388421.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[14]]), array([[306]]), array([[68]]), array([[175]]), array([[240]], dtype=uint8), array([[320]], dtype=uint16))
+  (array(['8/149388507.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[24]]), array([[614]]), array([[118]]), array([[356]]), array([[480]], dtype=uint16), array([[640]], dtype=uint16))
+  (array(['8/149389134.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[15]]), array([[1122]]), array([[116]]), array([[638]]), array([[768]], dtype=uint16), array([[1155]], dtype=uint16))
+  (array(['8/149389284.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[29]]), array([[426]]), array([[93]]), array([[287]]), array([[313]], dtype=uint16), array([[480]], dtype=uint16))
+  (array(['8/149389390.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[11]]), array([[791]]), array([[21]]), array([[347]]), array([[356]], dtype=uint16), array([[800]], dtype=uint16))
+  (array(['8/149389446.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[77]]), array([[945]]), array([[201]]), array([[585]]), array([[768]], dtype=uint16), array([[1024]], dtype=uint16))
+  (array(['8/149389742.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[182]]), array([[1025]]), array([[559]]), array([[917]]), array([[1064]], dtype=uint16), array([[1600]], dtype=uint16))
+  (array(['8/149389834.jpg'], dtype='<U15'), array([[8]], dtype=uint8), array([[14]]), array([[410]]), array([[78]]), array([[306]]), array([[360]], dtype=uint16), array([[424]], dtype=uint16))]]"
