@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import xml.etree.ElementTree as eltree
 
-df = pd.read_csv('./image-label.csv')
+df = pd.read_csv('./Train_car_split.csv')
 DIRECTORY_NAME = os.path.basename(os.getcwd())
 FULL_PATH = os.path.abspath(os.getcwd())
 ROOT_ELEM = eltree.Element("Main")

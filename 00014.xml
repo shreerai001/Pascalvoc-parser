@@ -1,6 +1,6 @@
 <Main>
     <folder>pascalVOC- parser</folder>
-    <path>C:\Users\shrikrishna.rai\Desktop\pascalVOC- parser</path>
+    <path>c:\Users\shrikrishna.rai\Desktop\pascalVOC- parser</path>
     <source>
         <database>Unknown</database>
     </source>
@@ -11,16 +11,16 @@
     </size>
     <segmented>0</segmented>
     <object>
-        <name>ford</name>
+        <name>85</name>
         <pose>unspecified</pose>
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>1214</xmin>
-            <ymin>1043</ymin>
-            <xmax>1452</xmax>
-            <ymax>1157</ymax>
+            <xmin>31</xmin>
+            <ymin>246</ymin>
+            <xmax>778</xmax>
+            <ymax>540</ymax>
         </bndbox>
     </object>
-    <filename>2019-ford-edge-st-4_1.jpg</filename>
+    <filename>00014.jpg</filename>
 </Main>
